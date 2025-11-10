@@ -14,13 +14,19 @@ Version 0.0.1
 - нужно настроить переменные трансляции в файле Config.h
 - параметры Wi-Fi
   - #define LASER
+  - 
     //#define DIR620
+    
 - подключаемые датчики
 - один датчик температуры
-    //#define IF_PRESSURESENSOR
+-   //#define IF_PRESSURESENSOR
+-   
     #define IF_TEMPERATURESENSOR
+    
 - оба датчика
-    #define IF_PRESSURESENSOR
+
+  #define IF_PRESSURESENSOR
+  
     #define IF_TEMPERATURESENSOR
 
   ## Установка и запуск
