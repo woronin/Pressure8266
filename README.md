@@ -19,15 +19,16 @@ Version 0.0.1
     
 - подключаемые датчики
 - один датчик температуры
--   //#define IF_PRESSURESENSOR
--   
-    #define IF_TEMPERATURESENSOR
+
+ //#define IF_PRESSURESENSOR
+  
+ #define IF_TEMPERATURESENSOR
     
 - оба датчика
 
   #define IF_PRESSURESENSOR
   
-    #define IF_TEMPERATURESENSOR
+  #define IF_TEMPERATURESENSOR
 
   ## Установка и запуск
 
