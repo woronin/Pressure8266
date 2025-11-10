@@ -13,23 +13,21 @@ Version 0.0.1
 # Настройка проекта
 - нужно настроить переменные трансляции в файле Config.h
 - параметры Wi-Fi
-  - #define LASER
-  - 
-    //#define DIR620
-    
+```bash
+  #define LASER
+  //#define DIR620
+```    
 - подключаемые датчики
 - один датчик температуры
-
- //#define IF_PRESSURESENSOR
-  
+```bash
+ //#define IF_PRESSURESENSOR 
  #define IF_TEMPERATURESENSOR
-    
+  ```  
 - оба датчика
-
+```bash
   #define IF_PRESSURESENSOR
-  
   #define IF_TEMPERATURESENSOR
-
+```
   ## Установка и запуск
 
 ### Команды для загрузки проекта в контроллер ESP32
