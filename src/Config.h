@@ -1,0 +1,11 @@
+#define LASER
+//#define DIR620
+#define MQTT_HOMEASSIST
+#define IFMQTT
+//#define MY_DEBUG
+#define  HOMEASSIST_USE 
+#define IF_WEBSITE
+#define IF_PRESSURESENSOR
+#define IF_TEMPERATURESENSOR
+#define IF_SWITCHPRESSURESENSOR
+//#define IF_TEST_APP
